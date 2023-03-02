@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 // 20. Valid Parentheses
 // Easy
 // 18.1K
@@ -58,6 +60,5 @@ public class validParentheses {
         else
                 return false;
     }
-} {
-    
-}
+} 
+
