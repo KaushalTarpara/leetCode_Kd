@@ -1,3 +1,5 @@
+import java.util.*;
+
 // Jump Game IV
 // Hard
 // 2.3K
@@ -38,7 +40,7 @@
 // 1 <= arr.length <= 5 * 104
 // -108 <= arr[i] <= 108
 
-class Solution {
+class 05-03-2023_JumpGameIV {
     public int minJumps(int[] arr) {
         int n = arr.length;
         if (n == 1) return 0;
